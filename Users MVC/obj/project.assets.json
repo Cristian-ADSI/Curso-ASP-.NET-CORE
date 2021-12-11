@@ -7498,11 +7498,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Endeavor\\source\\repos\\ASP .NET\\Users MVC\\Users MVC\\Users MVC.csproj",
+      "projectUniqueName": "C:\\Users\\Endeavor\\Documents\\Repos\\Curso-ASP-.NET-CORE\\Users MVC\\Users MVC.csproj",
       "projectName": "Users MVC",
-      "projectPath": "C:\\Users\\Endeavor\\source\\repos\\ASP .NET\\Users MVC\\Users MVC\\Users MVC.csproj",
+      "projectPath": "C:\\Users\\Endeavor\\Documents\\Repos\\Curso-ASP-.NET-CORE\\Users MVC\\Users MVC.csproj",
       "packagesPath": "C:\\Users\\Endeavor\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Endeavor\\source\\repos\\ASP .NET\\Users MVC\\Users MVC\\obj\\",
+      "outputPath": "C:\\Users\\Endeavor\\Documents\\Repos\\Curso-ASP-.NET-CORE\\Users MVC\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Endeavor\\AppData\\Roaming\\NuGet\\NuGet.Config",
