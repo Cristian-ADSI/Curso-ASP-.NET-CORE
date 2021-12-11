@@ -2,12 +2,12 @@
 
 namespace Users_MVC.Controllers
 {
-    [Route("/Usuarios")]
+    //[Route("/Usuarios")]
     public class UsersController : Controller
     {
         //[HttpGet]
         [Route("/Usuarios/home")]
-        [Route("/Usuarios/index/{name}")]
+        [Route("/[controller]/[action]/{name}")]
         public IActionResult Index(string name, int age)
         {
             string Data = name+" "+age;
@@ -17,5 +17,6 @@ namespace Users_MVC.Controllers
         { 
             return View();
         }
+        
     }
 }
