@@ -7,11 +7,11 @@ namespace Users_MVC.Controllers
     {
         //[HttpGet]
         [Route("/Usuarios/home")]
-        [Route("/Usuarios/index/{name")]
+        [Route("/Usuarios/index/{name}")]
         public IActionResult Index(string name, int age)
         {
             string Data = name+" "+age;
-            return View("Index", Data);
+            return View("Index", Data);  
         }
         public IActionResult Index()
         { 
