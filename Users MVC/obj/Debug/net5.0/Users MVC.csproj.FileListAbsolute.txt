@@ -482,3 +482,4 @@ C:\Users\usuario\Desktop\Repos\Curso-ASP-.NET-CORE\Users MVC\obj\Debug\net5.0\Us
 C:\Users\usuario\Desktop\Repos\Curso-ASP-.NET-CORE\Users MVC\obj\Debug\net5.0\Users MVC.csproj.CopyComplete
 C:\Users\usuario\Desktop\Repos\Curso-ASP-.NET-CORE\Users MVC\obj\Debug\net5.0\Users MVC.genruntimeconfig.cache
 >>>>>>> 3cebf87a9c36ba98afec61a2f3656f538b735c5d
+C:\Users\usuario\Desktop\Repos\Curso-ASP-.NET-CORE\Users MVC\obj\Debug\net5.0\Razor\Views\Users\Method.cshtml.g.cs
