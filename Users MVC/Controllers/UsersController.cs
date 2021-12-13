@@ -14,9 +14,9 @@ namespace Users_MVC.Controllers
         }
 
         [HttpGet("[controller]/[action]", Name = "Usuarios")]
-        public IActionResult Method(string name, int age)
+        public IActionResult Method( int code)
         {
-            var data = $"name {name} age {age}";
+            var data = $"status code: {code}";
             return View("Index", data);
         }
     }   

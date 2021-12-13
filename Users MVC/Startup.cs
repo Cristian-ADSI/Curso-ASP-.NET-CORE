@@ -52,14 +52,18 @@ namespace Users_MVC
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
+
+
             //app.UseStatusCodePages("text/plain", "Code state page, code state:{0}");
 
-            app.UseStatusCodePages(async context =>
+            /*app.UseStatusCodePages(async context =>
             {
                 await context.HttpContext.Response.WriteAsync(
                         "Page not found, code state: "+ context.HttpContext.Response.StatusCode
                     );
-            });
+            });*/
+            //app.UseStatusCodePagesWithRedirects("/Users/Method?code={0}");
+            app.UseStatusCodePagesWithReExecute("/Home/Error", "?statusCode={0}");
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
