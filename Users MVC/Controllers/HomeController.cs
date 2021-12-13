@@ -20,9 +20,10 @@ namespace Users_MVC.Controllers
 
         public IActionResult Index()
         {
+            throw new Exception("This is some Exception!!");
             return View();
         }
-
+            
         public IActionResult Privacy()
         {
             return View();

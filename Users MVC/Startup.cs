@@ -13,6 +13,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Users_MVC.Data;
+using System.Net;
+using Microsoft.AspNetCore.Diagnostics;
 
 namespace Users_MVC
 {
@@ -43,8 +45,21 @@ namespace Users_MVC
         {
             if (env.IsDevelopment())
             {
-                app.UseDeveloperExceptionPage();
-                app.UseMigrationsEndPoint();
+                //app.UseDeveloperExceptionPage();
+                //app.UseMigrationsEndPoint();
+                app.UseExceptionHandler(options =>{
+                    options.Run(async context =>
+                    {
+                        context.Response.StatusCode = (int)HttpStatusCode.InternalServerError;
+                        context.Response.ContentType = "text/html";
+                        var exeption = context.Features.Get<IExceptionHandlerFeature>();
+                        if (exeption != null)
+                        {
+                            var error = $"<h1>Error: {exeption.Error.Message}</h1> {exeption.Error.StackTrace}";
+                            await context.Response.WriteAsync(error).ConfigureAwait(false);
+                        }
+                    });
+                });
             }
             else
             {
