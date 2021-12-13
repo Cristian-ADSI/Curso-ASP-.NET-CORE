@@ -318,3 +318,4 @@ C:\Users\Endeavor\Documents\Repos\Curso-ASP-.NET-CORE\Users MVC\obj\Debug\net5.0
 C:\Users\Endeavor\Documents\Repos\Curso-ASP-.NET-CORE\Users MVC\obj\Debug\net5.0\ref\Users MVC.dll
 C:\Users\Endeavor\Documents\Repos\Curso-ASP-.NET-CORE\Users MVC\obj\Debug\net5.0\Users MVC.pdb
 C:\Users\Endeavor\Documents\Repos\Curso-ASP-.NET-CORE\Users MVC\obj\Debug\net5.0\Users MVC.genruntimeconfig.cache
+C:\Users\Endeavor\Documents\Repos\Curso-ASP-.NET-CORE\Users MVC\obj\Debug\net5.0\Razor\Views\Users\Method.cshtml.g.cs

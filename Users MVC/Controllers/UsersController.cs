@@ -2,20 +2,22 @@
 
 namespace Users_MVC.Controllers
 {
-    [Route("/Usuarios")]
+ 
     public class UsersController : Controller
     {
-        //[HttpGet]
-        [Route("/Usuarios/home")]
-        [Route("/Usuarios/index/{name}")]
-        public IActionResult Index(string name, int age)
-        {
-            string Data = name+" "+age;
-            return View("Index", Data);  
-        }
+        
         public IActionResult Index()
-        { 
-            return View();
+        {
+            //var url = Url.Action("Method", "Users", new {age = 52, name =  "Jhon"});
+            var url = Url.RouteUrl("Usuarios", new { age = 52, name = "Jhon" });
+            return Redirect(url);
+        }
+
+        [HttpGet("[controller]/[action]", Name = "Usuarios")]
+        public IActionResult Method(string name, int age)
+        {   
+            var data = $"name {name} age {age}";
+            return View("Index", data);
         }
     }
 }
