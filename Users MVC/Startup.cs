@@ -45,9 +45,9 @@ namespace Users_MVC
         {
             if (env.IsDevelopment())
             {
-                //app.UseDeveloperExceptionPage();
-                //app.UseMigrationsEndPoint();
-                app.UseExceptionHandler(options =>{
+                app.UseDeveloperExceptionPage();
+                app.UseMigrationsEndPoint();
+                /*app.UseExceptionHandler(options =>{
                     options.Run(async context =>
                     {
                         context.Response.StatusCode = (int)HttpStatusCode.InternalServerError;
@@ -59,7 +59,9 @@ namespace Users_MVC
                             await context.Response.WriteAsync(error).ConfigureAwait(false);
                         }
                     });
-                });
+                });*/
+                //app.UseExceptionHandler("/Home/Error");
+
             }
             else
             {

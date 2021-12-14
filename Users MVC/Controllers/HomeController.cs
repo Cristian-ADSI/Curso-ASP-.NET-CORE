@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Diagnostics;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
@@ -20,7 +21,7 @@ namespace Users_MVC.Controllers
 
         public IActionResult Index()
         {
-            throw new Exception("This is some Exception!!");
+            //throw new Exception("This is some Exception!!");
             return View();
         }
             
@@ -36,8 +37,21 @@ namespace Users_MVC.Controllers
             if (statusCode != null) {
                 error = new ErrorViewModel
                 {
-                   RequestId = Convert.ToString(statusCode)
+                    RequestId = Convert.ToString(statusCode),
+                    ErrorMessage = "Error to procces petition"
                 };
+            }
+            else
+            {
+                var exeptionFeature = HttpContext.Features.Get<IExceptionHandlerPathFeature>();
+                if (exeptionFeature != null)
+                {
+                    error = new ErrorViewModel
+                    {
+                        RequestId = "500", ErrorMessage = exeptionFeature.Error.Message,
+                    };
+
+                }
             }
             return View(error);
         }      
