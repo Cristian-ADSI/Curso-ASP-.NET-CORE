@@ -167,3 +167,5 @@ C:\Users\Endeavor\Documents\Repos\Curso-ASP-.NET-CORE\Users MVC\obj\Debug\net5.0
 C:\Users\Endeavor\Documents\Repos\Curso-ASP-.NET-CORE\Users MVC\obj\Debug\net5.0\Razor\Areas\User\Views\_ViewStart.cshtml.g.cs
 C:\Users\Endeavor\Documents\Repos\Curso-ASP-.NET-CORE\Users MVC\obj\Debug\net5.0\Razor\Areas\User\Pages\Account\SingUp.cshtml.g.cs
 C:\Users\Endeavor\Documents\Repos\Curso-ASP-.NET-CORE\Users MVC\obj\Debug\net5.0\Razor\Areas\User\Pages\_ViewImports.cshtml.g.cs
+C:\Users\Endeavor\Documents\Repos\Curso-ASP-.NET-CORE\Users MVC\obj\Debug\net5.0\Users MVC.csproj.AssemblyReference.cache
+C:\Users\Endeavor\Documents\Repos\Curso-ASP-.NET-CORE\Users MVC\obj\Debug\net5.0\Razor\Areas\User\Pages\_ViewStart.cshtml.g.cs
