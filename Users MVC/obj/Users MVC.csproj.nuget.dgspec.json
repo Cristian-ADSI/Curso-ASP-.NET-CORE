@@ -1,21 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Endeavor\\Documents\\Repos\\Curso-ASP-.NET-CORE\\Users MVC\\Users MVC.csproj": {}
+    "C:\\Users\\usuario\\Desktop\\Repos\\Curso-ASP-.NET-CORE\\Users MVC\\Users MVC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Endeavor\\Documents\\Repos\\Curso-ASP-.NET-CORE\\Users MVC\\Users MVC.csproj": {
+    "C:\\Users\\usuario\\Desktop\\Repos\\Curso-ASP-.NET-CORE\\Users MVC\\Users MVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Endeavor\\Documents\\Repos\\Curso-ASP-.NET-CORE\\Users MVC\\Users MVC.csproj",
+        "projectUniqueName": "C:\\Users\\usuario\\Desktop\\Repos\\Curso-ASP-.NET-CORE\\Users MVC\\Users MVC.csproj",
         "projectName": "Users MVC",
-        "projectPath": "C:\\Users\\Endeavor\\Documents\\Repos\\Curso-ASP-.NET-CORE\\Users MVC\\Users MVC.csproj",
-        "packagesPath": "C:\\Users\\Endeavor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Endeavor\\Documents\\Repos\\Curso-ASP-.NET-CORE\\Users MVC\\obj\\",
+        "projectPath": "C:\\Users\\usuario\\Desktop\\Repos\\Curso-ASP-.NET-CORE\\Users MVC\\Users MVC.csproj",
+        "packagesPath": "C:\\Users\\usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\usuario\\Desktop\\Repos\\Curso-ASP-.NET-CORE\\Users MVC\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Endeavor\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -83,7 +87,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

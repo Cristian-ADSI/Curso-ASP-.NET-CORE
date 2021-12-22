@@ -1,4 +1,4 @@
-using Microsoft.AspNetCore.Mvc;
+ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using System.ComponentModel.DataAnnotations;
 
@@ -31,7 +31,12 @@ namespace Users_MVC.Areas.User.Pages.Account
             [DataType(DataType.Password)]
             [Compare("Password", ErrorMessage ="The password & conrfim password don`t match, please verify it")]
             public string Confirmassword { get; set; }
-
         }
+
+        public IActionResult OnPost()
+        {   var data = Imput;
+            return Page();
+        }
+
     }
 }
